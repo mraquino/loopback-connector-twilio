@@ -26,7 +26,7 @@ To use the connector, define the datasource using the connector in your `datasou
     
     "twilio-service": {
         "name": "twilio",
-        "connector": "loopback-connector-twilio",
+        "connector": "loopback-connector-twilio2",
         "accountSid": "YOUR_TWILIO_ACCOUNT_SID",
         "authToken": "YOUR_TWILIO_AUTH_TOKEN",
         "apiToken": "YOUR_API_TOKEN"  
@@ -44,7 +44,7 @@ Now, using the created model, you can send an SMS or make a call using the `send
     Twilio.send(options, callback);
     
 **Note**: `options` is defined by the JSON objects in the next two sections:
-
+**Note**: `The only loopback operation that actually works is /TwilioMessages - Create a new instance of the model and persist it into the data source. All other methods are loopback default behavior but not implemented`
 ### Sending a SMS
     {
         type: 'sms',
