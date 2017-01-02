@@ -1,5 +1,5 @@
 {
-  "name": "loopback-connector-twilio",
+  "name": "loopback-connector-twilio2",
   "version": "0.5.1",
   "description": "LoopBack connector for Twilio",
   "main": "index.js",
@@ -24,13 +24,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dennis W. Ashby",
+  "author": "Maximiliano Ribeiro Aquino Santos. This project is a fork from Dennis Ashby",
   "license": {
     "name": "MIT",
-    "url": "https://github.com/dashby3000/loopback-connector-twilio/blob/master/LICENSE"
+    "url": "https://github.com/mraquino/loopback-connector-twilio/blob/master/LICENSE"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashby3000/loopback-connector-twilio"
+    "url": "https://github.com/mraquino/loopback-connector-twilio"
   }
 }
