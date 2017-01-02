@@ -21,11 +21,11 @@
     },
     "body": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "apiToken": {
       "type": "string",
