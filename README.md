@@ -1,10 +1,10 @@
-## loopback-connector-twilio
+## loopback-connector-twilio2
 
 [Twilio](http://www.twilio.com/) connector for [LoopBack](http://www.loopback.io)
 
 ## Customizing Twilio configuration for examples
 
-By default, examples from this module assumes the user has a [Twillio](http://www.twilio.com) account.  To run the example you will need to provide your `accountSid` and `authToken`.
+By default, examples from this module assumes the user has a [Twillio](http://www.twilio.com) account.  To run the example you will need to provide your `accountSid` and `authToken` from Twilio and any Token string to use as `apiToken`.
 
 The connector support the following aspects of the [Twilio REST API](http://www.twilio.com/docs/api/rest):
   - [Making Calls](http://www.twilio.com/docs/api/rest/making-calls)
